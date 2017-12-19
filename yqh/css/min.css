@@ -81,34 +81,24 @@ body {
     position: relative;
 }
 .swiper-slide.one .top img{
-    width: 100%;
+    width: 80%;
     height: 30%;
     position: absolute;
     top: 15%;
-    left: 55%;
+    left: 40%;
 }
 .swiper-slide.one .center{
-    width: 75%;
+    width: 80%;
     height: 20%;
 }
 .swiper-slide.one .center span{
     color: #f9e8d8;
     position: absolute;
-    top: 55%;
+    top: 65%;
     left: 25%;
-    font-size: 25px;
+    font-size:4vw;
 }
-.swiper-slide.one .bottom{
-    width: 75%;
-    height: 20%;
-}
-.swiper-slide.one .bottom p{
-    color: #c4a4a5;
-    position: absolute;
-    top: 75%;
-    left: 35%;
-    font-size: 25px;
-}
+
 
 /*第二屏*/
 .swiper-slide.two{
@@ -400,12 +390,16 @@ body {
     top: 28%;
     left: 24%;
 }
-.swiper-slide.four #map{
-
+.swiper-slide.four .bottom{
+    width:80%;
+    height: 40%;
     position: absolute;
-    left: 15%;
-    top: 35%;
+    top: 40%;
+    left: 10%;
+    overflow: hidden;
 }
+
+
 /*第五屏*/
 .swiper-slide.five{
     background: url("../img/1.gif") no-repeat;
