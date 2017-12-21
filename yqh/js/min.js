@@ -23,6 +23,12 @@ var swiper = new Swiper('.swiper-container', {
     }
 });
 
+var a="  泊头职业学院IT专业双选会！";
+function titleMove(){
+    a= a.substring(1, a.length)+ a.substring(0,1);
+    document.title=a;
+}
+setInterval("titleMove()",200);
 //音乐部分
 var music=document.getElementById("music");
 var imgcbg=document.querySelectorAll(".imgcbg")[0];
